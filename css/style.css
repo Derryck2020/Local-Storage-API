@@ -15,6 +15,11 @@ img{
   margin: 0 auto;
 }
 
+h2{
+  color: rgb(11, 201, 84);
+  border: 2px solid greenyellow;
+  width: fit-content;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

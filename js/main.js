@@ -8,8 +8,10 @@ if (!localStorage.getItem('machineScore')){  // This conditional was in the func
 
 document.querySelector('button').addEventListener('click', addAnotherOne)
 
+
 function addAnotherOne(){
     let machineScoreVal = Number(localStorage.getItem('machineScore')) // This will get the value of machineScore and store it in machineScoreValue
     machineScoreVal += 1
     localStorage.setItem('machineScore', machineScoreVal)
+    document.querySelector('h3').innerText = machineScoreVal
 }
